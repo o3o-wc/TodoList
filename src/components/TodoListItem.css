@@ -1,0 +1,27 @@
+.TodoListItem{
+    display: flex;
+}
+.TodoListItem:nth-child(even){
+    background-color: rgba(0,0,0,0.2);
+}
+.checkbox{
+    flex:1;
+    cursor: pointer;
+}
+.checkbox.checked{
+    color:#eee
+}
+.text.checked{
+    color:#eee
+}
+.remove{
+    flex:1;
+    cursor: pointer;
+}
+.remove:hover{
+    color:maroon
+}
+.text{
+    flex:3;
+    text-align: left;
+}

@@ -1,0 +1,11 @@
+.ToDoTemp{
+    width: 600px;
+    margin:0 auto;
+    background-color: #fff;
+}
+.App-Title{
+    margin-top: 20px;
+    text-align: center;
+    background-color: darkcyan;
+    color:#fff;
+}
